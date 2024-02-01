@@ -1,0 +1,15 @@
+ridc:
+  owcc11g:
+    client:
+      url: http://172.22.85.30:16300/urm/idcplg
+      http-library: apache4
+    context:
+      user: urmadmin
+      password: qa.rec0rds.11g
+  owcc12c:
+    client:
+      url: http://172.22.85.30:16300/urm/idcplg
+      http-library: apache4
+    context:
+      user: urmproxy
+      password: qapr0xy.2017
